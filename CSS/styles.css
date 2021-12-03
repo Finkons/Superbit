@@ -28,7 +28,7 @@ a {
 .link {
   display: block;
   color: rgb(5, 219, 201);
-  transition-duration: 500ms;
+  transition-duration: 250ms;
   transition-timing-function: linear;
 }
 .link:hover {
