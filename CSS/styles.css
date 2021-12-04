@@ -1,6 +1,6 @@
 html {
   height: 100vh;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #0a136b 10%, #000000 100%);
   overflow: hidden;
   transform: scale(1.1);
 }
@@ -10,7 +10,6 @@ li {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-decoration: none;
 }
 a {
   text-decoration: none;
@@ -27,12 +26,12 @@ a {
 }
 .link {
   display: block;
-  color: rgb(5, 219, 201);
+  color: rgb(204, 207, 221);
   transition-duration: 250ms;
   transition-timing-function: linear;
 }
 .link:hover {
-  color: rgb(22, 20, 37);
+  color: rgb(9, 3, 66);
   text-shadow: 0 0 5px rgb(144, 241, 236), 0 0 10px rgb(144, 241, 236), 0 0 15px rgb(144, 241, 236),
     0 0 20px hsl(177, 100%, 50%), 0 0 35px hsl(177, 100%, 50%), 0 0 40px hsl(177, 100%, 50%),
     0 0 50px hsl(177, 100%, 50%), 0 0 75px hsl(177, 100%, 50%);
@@ -42,6 +41,7 @@ a {
 #stars {
   width: 1px;
   height: 1px;
+  border-radius: 50%;
   background: transparent;
   box-shadow: 1923px 1898px #fff, 658px 1220px #fff, 939px 1587px #fff, 1418px 47px #fff,
     586px 1016px #fff, 516px 485px #fff, 578px 1065px #fff, 1776px 1218px #fff, 1616px 974px #fff,
@@ -192,6 +192,7 @@ a {
   top: 2000px;
   width: 1px;
   height: 1px;
+  border-radius: 50%;
   background: transparent;
   box-shadow: 1923px 1898px #fff, 658px 1220px #fff, 939px 1587px #fff, 1418px 47px #fff,
     586px 1016px #fff, 516px 485px #fff, 578px 1065px #fff, 1776px 1218px #fff, 1616px 974px #fff,
@@ -339,6 +340,7 @@ a {
 #stars2 {
   width: 2px;
   height: 2px;
+  border-radius: 50%;
   background: transparent;
   box-shadow: 1772px 695px #fff, 1142px 671px #fff, 185px 1949px #fff, 1234px 1333px #fff,
     1636px 1545px #fff, 1133px 396px #fff, 580px 67px #fff, 856px 410px #fff, 1982px 79px #fff,
@@ -389,6 +391,7 @@ a {
   top: 2000px;
   width: 2px;
   height: 2px;
+  border-radius: 50%;
   background: transparent;
   box-shadow: 1772px 695px #fff, 1142px 671px #fff, 185px 1949px #fff, 1234px 1333px #fff,
     1636px 1545px #fff, 1133px 396px #fff, 580px 67px #fff, 856px 410px #fff, 1982px 79px #fff,
@@ -434,8 +437,9 @@ a {
 }
 
 #stars3 {
-  width: 3px;
-  height: 3px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
   background: transparent;
   box-shadow: 1139px 1522px #fff, 616px 982px #fff, 660px 1392px #fff, 52px 40px #fff,
     1117px 18px #fff, 1132px 1773px #fff, 299px 213px #fff, 74px 685px #fff, 763px 1684px #fff,
@@ -464,8 +468,9 @@ a {
   content: ' ';
   position: absolute;
   top: 2000px;
-  width: 3px;
-  height: 3px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
   background: transparent;
   box-shadow: 1139px 1522px #fff, 616px 982px #fff, 660px 1392px #fff, 52px 40px #fff,
     1117px 18px #fff, 1132px 1773px #fff, 299px 213px #fff, 74px 685px #fff, 763px 1684px #fff,
@@ -492,18 +497,19 @@ a {
 
 #title {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 0;
   right: 0;
   color: #fff;
   text-align: center;
   font-family: 'lato', sans-serif;
   font-weight: 500;
-  font-size: 200px;
+  font-size: 150px;
   letter-spacing: 10px;
   margin-top: -60px;
   padding-left: 10px;
 }
+
 #title span {
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
@@ -512,9 +518,9 @@ a {
 
 @keyframes animStar {
   from {
-    transform: translateY(0px);
+    transform: translateY(-2000px);
   }
   to {
-    transform: translateY(-2000px);
+    transform: translateY(0px);
   }
 }
